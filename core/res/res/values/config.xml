@@ -2505,8 +2505,8 @@
          OEM can override a certain USB mode depending on ro.bootmode.
          Specify an array of below items to set override rule.
          [bootmode]:[original USB mode]:[USB mode used]-->
-    <integer-array translatable="false" name="config_oemUsbModeOverride">
-    </integer-array>
+    <string-array translatable="false" name="config_oemUsbModeOverride">
+    </string-array>
 
     <!-- Set to true to add links to Cell Broadcast app from Settings and MMS app. -->
     <bool name="config_cellBroadcastAppLinks">false</bool>
